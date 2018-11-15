@@ -8,6 +8,11 @@ p{
 
 /* Navigation */
 
+nav{
+    position: relative;
+    left: 50px;
+}
+
 header{
     margin: 0 auto;
     height: 15vh;
@@ -26,11 +31,12 @@ header img{
 }
 
 header li{
+    width: 170px;
     font-weight: bold;
     display: inline-block;
     font-size: 4vh;
     color: white;
-    padding-right: 30px;
+    padding-right: 20px;
     position: relative;
     top: 3vh;
 }
@@ -69,7 +75,7 @@ header a:visited{
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     z-index: 1;
 
@@ -150,7 +156,7 @@ header a:visited{
 
 #sleepOnMetroContent{
     position: relative;
-    top: 850px;
+    top: 1050px;
 }
 
 #sleepOnMetro h2{
@@ -229,7 +235,7 @@ header a:visited{
 }
 
 #application{
-    height: 700px;   
+    height: auto;   
     padding-top: 30px;
     padding-bottom: 30px;
     background-color:rgba(44, 44, 46, 1);
@@ -237,18 +243,38 @@ header a:visited{
     box-sizing: border-box; 
 }
 
-#application p{
+.appText{
     font-size: 18px;
-    width: 80%;
-    margin: 0 auto;
-    box-sizing: border-box;
+    width: 50vw;
+    float: right;
+    margin-top: 20px;
+    margin-right: 17vw;
+}
+
+.appText h3{
+    color:  rgba(239, 197, 7, 1); 
+    font-size: 25px;
+}
+
+#application img{
+    margin-left: 10vw;
+    margin-top: 30px;
+    height: 400px;
+}
+
+#powernapBuddy p{
+    
+}
+
+.subHeader{
+    
 }
 
 /* Theories */
 
 #theories{
     height: auto;   
-    padding-top: 30px;
+    padding-top: 75px;
     padding-bottom: 30px;
     background-color:rgba(44, 44, 46, 1);
     color: white;
