@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    line-height: 1.5;
+}
+
+/* Navigation */
+
+header{
+    margin: 0 auto;
+    height: 15vh;
+    width: 100%;
+    background-color: rgba(44, 44, 46, 1);
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+header img{
+    float: left;
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    height: 15vh;
+}
+
+header li{
+    font-weight: bold;
+    display: inline-block;
+    font-size: 4vh;
+    color: white;
+    padding-right: 30px;
+    position: relative;
+    top: 3vh;
+}
+
+header a:link{
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a:hover{
+    color: rgba(239, 197, 7, 1);
+}
+
+header a:visited{
+    color: white;
+}
+
+
+
+#link2{
+    height: 15vh;
+    width: 100%;
+    margin: 0;
+}
+#link3{
+    height: 15vh;
+    width: 100%;
+    margin: 0;
+}
+
+/* The Problem */
+
+#sleepInClass{
+    background-attachment: fixed;
+    background-image: url("../Content/sleep.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+
+
+}
+
+#sleepInClassContent{
+    position: relative;
+    top: 83vh;
+}
+
+
+
+#slogan {
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgba(44, 44, 46, 0.93);
+
+}
+
+#sleepInClass h1{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    color: white;
+    box-sizing: border-box;
+    padding: 40px 0px;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+#sleepInClass h2{
+    font-size: 45px;
+    margin: 0;
+    color: white;
+    position: relative;
+    height: 100px;
+    padding: 25px 0px;
+    text-align: center;
+    background-color: rgba(239, 197, 7, 1);
+    padding: 20px 0px 20px 0px;
+    box-sizing: border-box;
+}
+
+#theProblem{
+    height: auto;   
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:rgba(44, 44, 46, 1);
+    color: white;
+    box-sizing: border-box;
+}
+
+#theProblem p{
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Our Product */
+
+#sleepOnMetro{
+    background-attachment: fixed;
+    background-image: url("../Content/rekkeBussen.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 850px;
+    z-index: -1;
+    position: relative;
+    width: 100%; 
+    top: 150px;
+}
+
+#sleepOnMetroContent{
+    position: relative;
+    top: 850px;
+}
+
+#sleepOnMetro h2{
+    font-size: 45px;
+    margin: 0;
+    color: white;
+    position: relative;
+    height: auto;
+    padding: 25px 0px;
+    text-align: center;
+    background-color: rgba(239, 197, 7, 1);
+    padding: 20px 0px 20px 0px;
+    box-sizing: border-box;
+}
+
+#ourProduct{
+    height: auto; 
+    padding-bottom: 30px;
+    background-color:rgba(44, 44, 46, 1);
+    color: white;
+    box-sizing: border-box;
+}
+
+#ourProduct p{
+    padding-top: 30px;
+    padding-left: 7vw;
+    font-size: 18px;
+    width: 65%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#ourProductImage{
+    width: 35%;
+    float: right; 
+    height: auto;
+}
+
+#ourProductImage img{
+    padding: 10vh 0vh 0vh 5vw;
+    width: auto;
+    max-height: 280px;
+}
+
+/* Application */
+
+#awakeOnMetro{
+    background-attachment: fixed;
+    background-image: url("../Content/sleep.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    z-index: -1;
+    position: relative;
+    width: 100%; 
+    top: 850px;
+}
+
+#awakeOnMetroContent{
+    position: relative;
+    top: 600px;
+}
+
+#awakeOnMetro h2{
+    font-size: 45px;
+    margin: 0;
+    color: white;
+    position: relative;
+    height: 100px;
+    padding: 25px 0px;
+    text-align: center;
+    background-color: rgba(239, 197, 7, 1);
+    padding: 20px 0px 20px 0px;
+    box-sizing: border-box;
+}
+
+#application{
+    height: 700px;   
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:rgba(44, 44, 46, 1);
+    color: white;
+    box-sizing: border-box; 
+}
+
+#application p{
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Theories */
+
+#theories{
+    height: auto;   
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:rgba(44, 44, 46, 1);
+    color: white;
+    box-sizing: border-box; 
+}
+
+#theories p{
+    padding-top: 30px;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
