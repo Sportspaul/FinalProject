@@ -201,6 +201,31 @@ header a:visited{
     max-height: 280px;
 }
 
+@media only screen and (max-width: 960px){
+    #ourProduct p{
+        padding-top: 30px;
+        padding-left: 0;
+        font-size: 18px;
+        margin: 0 auto;
+        width: 80%;
+        box-sizing: border-box;
+        display: block;
+    }
+    #ourProductImage{
+        width: 100vw;
+        float: none; 
+        height: auto;
+    }
+    
+    #ourProductImage img{
+        margin: 0 auto;
+        padding: 5vh 0vh 0vh 0vw;
+        width: auto;
+        max-height: 280px;
+    }
+
+}
+
 /* Application */
 
 #awakeOnMetro{
@@ -261,20 +286,32 @@ header a:visited{
     margin-top: 30px;
     height: 400px;
 }
+@media only screen and (max-width: 970px){
+ 
+    .appText h3{
+        text-align: center;
+    }
 
-#powernapBuddy p{
+    .appText{
+      float: none;
+      margin: 0 auto;
+      width: 80vw;
+    }
     
-}
-
-.subHeader{
+    #application img{
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
     
-}
+    }
+}    
 
 /* Theories */
 
 #theories{
     height: auto;   
-    padding-top: 75px;
+    padding-top: 50px;
     padding-bottom: 30px;
     background-color:rgba(44, 44, 46, 1);
     color: white;
@@ -288,3 +325,10 @@ header a:visited{
     margin: 0 auto;
     box-sizing: border-box;
 }
+
+@media only screen and (max-width: 970px){
+    #theories{
+        padding-top: 0px;
+    }
+}
+
