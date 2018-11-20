@@ -17,7 +17,7 @@ nav{
 
 header{
     margin: 0 auto;
-    height: 100px;
+    height: 75px;
     width: 100vw;
     background-color: rgba(44, 44, 46, 1);
     position: fixed;
@@ -28,7 +28,7 @@ header img{
     float: left;
     width: auto;
     margin: 0 auto;
-    height: 100px;
+    height: 75px;
 }
 
 header li{
@@ -36,10 +36,11 @@ header li{
     font-size: 25px;
     font-weight: bold;
     display: inline-block;
-    font-size: auto;
+    bottom: 18px;
     color: white;
     position: relative;
     box-sizing: border-box;
+    
 }
 
 header a:link{
@@ -134,11 +135,11 @@ header a:visited{
     margin: 0;
     color: white;
     position: relative;
-    height: 100px;
+    height: 75px;
     padding: 25px 0px;
     text-align: center;
     background-color: rgba(239, 197, 7, 1);
-    padding: 20px 0px 20px 0px;
+    padding: 11px 0px;
     box-sizing: border-box;
 }
 
@@ -184,11 +185,11 @@ header a:visited{
     margin: 0;
     color: white;
     position: relative;
-    height: auto;
+    height: 75px;
     padding: 25px 0px;
     text-align: center;
     background-color: rgba(239, 197, 7, 1);
-    padding: 20px 0px 20px 0px;
+    padding: 11px 0px;
     box-sizing: border-box;
 }
 
@@ -250,7 +251,7 @@ header a:visited{
 
 #awakeOnMetro{
     background-attachment: fixed;
-    background-image: url("../Content/awkeOnMetro.jpg");
+    background-image: url("../Content/awkeOnMetroMedKlokke.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -271,11 +272,11 @@ header a:visited{
     margin: 0;
     color: white;
     position: relative;
-    height: 100px;
+    height: 75px;
     padding: 25px 0px;
     text-align: center;
     background-color: rgba(239, 197, 7, 1);
-    padding: 20px 0px 20px 0px;
+    padding: 11px 0px;
     box-sizing: border-box;
 }
 
@@ -335,7 +336,7 @@ header a:visited{
     padding-bottom: 30px;
     background-color:rgba(44, 44, 46, 1);
     color: white;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 #theories p{
@@ -343,6 +344,19 @@ header a:visited{
     font-size: 18px;
     width: 80%;
     margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#theories h2{
+    font-size: 45px;
+    margin: 0;
+    color: white;
+    position: relative;
+    height: 75px;
+    padding: 25px 0px;
+    text-align: center;
+    background-color: rgba(239, 197, 7, 1);
+    padding: 11px 0px;
     box-sizing: border-box;
 }
 
