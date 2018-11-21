@@ -10,10 +10,15 @@ p{
     line-height: 1.5;
 }
 
+#top{
+    height: 10px;
+}
+
 /* Navigation */
 
 nav{   
-    width: 100%;
+    width: 80%;
+    margin-left: 20%;
     position: relative;
     left: 50px;
     top: 25px;
@@ -36,6 +41,7 @@ header img{
 }
 
 header li{
+
     margin-right: 25px;
     font-size: 25px;
     font-weight: bold;
@@ -44,7 +50,10 @@ header li{
     color: white;
     position: relative;
     box-sizing: border-box;
-    
+}
+
+header ul{
+
 }
 
 header a:link{
