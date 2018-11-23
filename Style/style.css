@@ -1,0 +1,362 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    line-height: 1.5;
+}
+
+#top{
+    height: 10px;
+}
+
+/* Navigation */
+
+nav{   
+    width: 80%;
+    margin-left: 20%;
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+
+header{
+    margin: 0 auto;
+    height: 12vh;
+    width: 100vw;
+    background-color: rgba(44, 44, 46, 1);
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+header img{
+    float: left;
+    width: auto;
+    margin: 0 auto;
+    height: 12vh;
+}
+
+header li{
+    font-size: 4vh;
+    font-weight: bold;
+    display: inline-block;
+    bottom: 18px;
+    color: white;
+    position: relative;
+    box-sizing: border-box;
+}
+
+header ul{
+
+}
+
+header a:link{
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a:hover{
+    color: rgba(239, 197, 7, 1);
+}
+
+header a:visited{
+    color: white;
+}
+
+#link2{
+    height: 76px;
+    width: 100%;
+    margin: 0;
+}
+#link3{
+    height: 76px;
+    width: 100%;
+    margin: 0;
+}
+
+/* The Problem */
+
+#sleepInClass{
+    background-attachment: fixed;
+    background-image: url("../Content/sleep.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    z-index: 1;
+
+
+}
+
+#sleepInClassContent{
+    position: relative;
+    top: 84vh;
+}
+
+
+
+#slogan {
+    margin: 0 auto;
+    height: auto;
+    min-height: 15vh;
+    width: 100%;
+    background-color: rgba(44, 44, 46, 0.93);
+
+}
+
+#sleepInClass h1{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    color: white;
+    box-sizing: border-box; 
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 5vh;
+    box-sizing: border-box;
+}
+
+#sleepInClass h2{
+    font-size: 6vh;
+    margin: 0;
+    color: white;
+    position: relative;
+    height: 12vh;
+    text-align: center;
+    background-color: rgba(239, 197, 7, 1);
+    padding-top: 2.5vh;
+    padding-bottom: 3.5vh;
+    box-sizing: border-box;
+}
+
+#theProblem{
+    height: auto;   
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:rgba(44, 44, 46, 1);
+    color: white;
+    box-sizing: border-box;
+}
+
+#theProblem p{
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Our Product */
+
+#sleepOnMetro{
+    background-attachment: fixed;
+    background-image: url("../Content/sleepOnMetro.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+    z-index: -1;
+    position: relative;
+    width: 100%; 
+}
+
+#sleepOnMetroContent{
+    position: relative;
+    top: 160vh;
+}
+
+#sleepOnMetro h2{
+    font-size: 6vh;
+    margin: 0;
+    color: white;
+    position: relative;
+    height: 12vh;
+    text-align: center;
+    background-color: rgba(239, 197, 7, 1);
+    padding-top: 2.5vh;
+    padding-bottom: 3.5vh;
+    box-sizing: border-box;
+}
+
+#ourProduct{
+    height: auto; 
+    padding-bottom: 30px;
+    background-color:rgba(44, 44, 46, 1);
+    color: white;
+    box-sizing: border-box;
+}
+
+#ourProduct p{
+    padding-top: 30px;
+    padding-left: 7vw;
+    font-size: 18px;
+    width: 70%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#ourProductImage{
+    width: 30%;
+    float: right; 
+    height: auto;
+}
+
+#ourProductImage img{
+    margin-left: 20%;
+    margin-top: 10%;
+    width: auto;
+    min-height: 250px;
+    height: 25vh;
+}
+
+@media only screen and (max-width: 960px){
+    #ourProduct p{
+        padding-top: 30px;
+        padding-left: 0;
+        font-size: 18px;
+        margin: 0 auto;
+        width: 80%;
+        box-sizing: border-box;
+        display: block;
+    }
+    #ourProductImage{
+        width: 100%;
+        float: none; 
+        margin: 0 auto;
+        height: auto;
+    }
+    
+    #ourProductImage img{
+        margin-left: 10vw;
+        margin-right: auto;
+        margin-top: 5vh;
+    }
+
+}
+
+/* Application */
+
+#awakeOnMetro{
+    background-attachment: fixed;
+    background-image: url("../Content/awakeOnMetroMedKlokke.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1850px;
+    z-index: -1;
+    position: relative;
+    width: 100%; 
+    top: 130vh;
+}
+
+#awakeOnMetroContent{
+    position: relative;
+    top: 110vh;
+}
+
+#awakeOnMetro h2{
+    font-size: 6vh;
+    margin: 0;
+    color: white;
+    position: relative;
+    height: 12vh;
+    text-align: center;
+    background-color: rgba(239, 197, 7, 1);
+    padding-top: 2.5vh;
+    padding-bottom: 3.5vh;
+    box-sizing: border-box;
+}
+
+#application{
+    height: auto;   
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:rgba(44, 44, 46, 1);
+    color: white;
+    box-sizing: border-box; 
+}
+
+.appText{
+    font-size: 18px;
+    width: 50vw;
+    float: right;
+    margin-top: 20px;
+    margin-right: 17vw;
+}
+
+.appText h3{
+    color:  rgba(239, 197, 7, 1); 
+    font-size: 25px;
+}
+
+#application img{
+    margin-left: 10vw;
+    margin-top: 30px;
+    height: 400px;
+}
+@media only screen and (max-width: 970px){
+ 
+    .appText h3{
+        text-align: center;
+    }
+
+    .appText{
+      float: none;
+      margin: 0 auto;
+      width: 80vw;
+    }
+    
+    #application img{
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+    }
+}    
+
+/* Theories */
+
+#theories{
+    height: auto;   
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color:rgba(44, 44, 46, 1);
+    color: white;
+    box-sizing: border-box;
+}
+
+#theories p{
+    padding-top: 30px;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#theories h2{
+    font-size: 6vh;
+    margin: 0;
+    color: white;
+    position: relative;
+    height: 12vh;
+    text-align: center;
+    background-color: rgba(239, 197, 7, 1);
+    padding-top: 2.5vh;
+    padding-bottom: 3.5vh;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 970px){
+    #theories{
+        padding-top: 0px;
+    }
+}
+
