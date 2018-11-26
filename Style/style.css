@@ -40,7 +40,7 @@ header img{
     height: 12vh;
 }
 
-header ul li{
+header li{
     margin-left: 25px;
     font-size: 4vh;
     bottom: 0vh;
@@ -49,10 +49,6 @@ header ul li{
     color: white;
     position: relative;
     box-sizing: border-box;
-}
-
-header ul{
-
 }
 
 header a:link{
@@ -68,7 +64,7 @@ header a:visited{
     color: white;
 }
 
-/*hamburger menu*/
+/*Hamburger menu*/
 .bar {
     width: 35px;
     height: 5px;
@@ -76,18 +72,18 @@ header a:visited{
     margin: 6px 10px;
 }
 
-
-
-#menubar {
-    display: none;
-    position: absolute;
-    left: 350px;
-    margin: 30px 15px;
+.menubar {
+    display: block;
+    float: right;
+    position: relative;
+    right: 30px;
+    margin: 30px;
     width: 45px;
     height: 50px;
     background-color: rgba(44, 44, 46, 0.93);
     cursor: pointer;
 }
+<<<<<<< HEAD
 
 @media only screen and (max-width: 1165px){
     
@@ -100,6 +96,8 @@ header a:visited{
     }
 }
 
+=======
+>>>>>>> d9a19e738243e3e396859ddf45113cc9ec8b251a
 /* Navigation links */
 
 #link2{
