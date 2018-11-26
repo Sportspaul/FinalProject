@@ -80,13 +80,11 @@ header a:visited{
 
 #menubar {
     display: none;
-    position: relative;
-    left: 30vw;
+    position: absolute;
+    left: 350px;
     margin: 30px 15px;
-    padding-left: 5px;
-    padding-right: 5px;
     width: 45px;
-    height: 65%;
+    height: 50px;
     background-color: rgba(44, 44, 46, 0.93);
     cursor: pointer;
 }
@@ -98,11 +96,10 @@ header a:visited{
     }
     
     nav a {
-        display: none;
+        display:inline-table;
     }
 }
-
-
+5
 
 /* Navigation links */
 
