@@ -83,6 +83,21 @@ header a:visited{
     background-color: inherit;
     cursor: pointer;
 }
+<<<<<<< HEAD
+
+@media only screen and (max-width: 1165px){
+    
+    #menubar {
+        display: block;
+    }
+    
+    nav a {
+        display:inline-table;
+    }
+}
+
+=======
+>>>>>>> d9a19e738243e3e396859ddf45113cc9ec8b251a
 /* Navigation links */
 
 #link2{
@@ -397,9 +412,9 @@ header a:visited{
 }
 
 /* Endrer Bakgrunnsbildene */
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 600px){
 #awakeOnMetro{
-    background-image: url("../Content/.jpg");
+    background-image: url("../Content/awakeOnMetroSmall.jpg");
 }
 }
 
