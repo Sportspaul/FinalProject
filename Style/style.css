@@ -65,24 +65,85 @@ header a:visited{
 }
 
 /*Hamburger menu*/
-.bar {
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 10px;
+.menucontainer {
+    height: 240px;
+    width: 4vw;
+    float: right;
+}
+
+span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  background: white;
+  border-radius: 3px;
 }
 
 .menubar {
-    display: block;
-    float: right;
-    position: relative;
-    right: 30px;
+    display: none;
     margin: 30px;
     width: 45px;
     height: 50px;
-    background-color: inherit;
-    cursor: pointer;
+    z-index: 2 
 }
+
+.menucontainer:hover  span  {
+    background: rgba(239, 197, 7, 1);
+}
+
+.menucontainer:hover .menu {
+    display: block;
+} 
+
+
+.menu {
+    display: none;
+}
+
+@media only screen and (max-width: 1175px){
+    .menubar {
+        display: block;
+        float: right;
+        position: relative;
+        right: 30px;
+    }
+    
+    nav {
+        display: none;
+    }
+    
+    .menu {
+        float: right;
+        position:absolute;
+        right:0;
+        top: 89px;
+        background-color: rgba(44, 44, 46, 1);
+    }
+    
+    .menu li {
+        display: block;
+        font-size: 4vh;
+        font-weight: bold;
+        color: white;
+        height: 4vh;
+        margin-right: 40px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 500px){
+    .menubar {
+        position: fixed;
+        left: 335px;
+    }
+    span {
+        width: 28px;
+    }
+}
+
+
 /* Navigation links */
 
 #link2{
