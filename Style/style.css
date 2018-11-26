@@ -80,7 +80,7 @@ header a:visited{
     margin: 30px;
     width: 45px;
     height: 50px;
-    background-color: rgba(44, 44, 46, 0.93);
+    background-color: inherit;
     cursor: pointer;
 }
 /* Navigation links */
