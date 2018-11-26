@@ -99,7 +99,6 @@ header a:visited{
         display:inline-table;
     }
 }
-5
 
 /* Navigation links */
 
@@ -415,9 +414,9 @@ header a:visited{
 }
 
 /* Endrer Bakgrunnsbildene */
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 600px){
 #awakeOnMetro{
-    background-image: url("../Content/.jpg");
+    background-image: url("../Content/awakeOnMetroSmall.jpg");
 }
 }
 
