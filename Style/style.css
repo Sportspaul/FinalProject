@@ -68,6 +68,44 @@ header a:visited{
     color: white;
 }
 
+/*hamburger menu*/
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 10px;
+}
+
+
+
+#menubar {
+    display: none;
+    position: relative;
+    left: 30vw;
+    margin: 30px 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 45px;
+    height: 65%;
+    background-color: rgba(44, 44, 46, 0.93);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1165px){
+    
+    #menubar {
+        display: block;
+    }
+    
+    nav a {
+        display: none;
+    }
+}
+
+
+
+/* Navigation links */
+
 #link2{
     height: 12vh;
     width: 100%;
@@ -379,7 +417,7 @@ header a:visited{
     }
 }
 
-/* Endrer Bakgrunnsbilene */
+/* Endrer Bakgrunnsbildene */
 @media only screen and (max-width: 750px){
 #awakeOnMetro{
     background-image: url("../Content/.jpg");
