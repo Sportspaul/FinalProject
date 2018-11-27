@@ -40,7 +40,7 @@ header img{
     height: 12vh;
 }
 
-header ul li{
+header li{
     margin-left: 25px;
     font-size: 4vh;
     bottom: 0vh;
@@ -49,10 +49,6 @@ header ul li{
     color: white;
     position: relative;
     box-sizing: border-box;
-}
-
-header ul{
-
 }
 
 header a:link{
@@ -68,35 +64,82 @@ header a:visited{
     color: white;
 }
 
-/*hamburger menu*/
-.bar {
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 10px;
+/*Hamburger menu*/
+.menucontainer {
+    height: 240px;
+    width: 4vw;
+    float: right;
 }
 
+span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  background: white;
+  border-radius: 3px;
+}
 
-
-#menubar {
+.menubar {
     display: none;
-    position: absolute;
-    left: 350px;
-    margin: 30px 15px;
+    margin: 30px;
     width: 45px;
     height: 50px;
-    background-color: rgba(44, 44, 46, 0.93);
-    cursor: pointer;
+    z-index: 2 
 }
 
-@media only screen and (max-width: 1165px){
-    
-    #menubar {
+.menucontainer:hover  span  {
+    background: rgba(239, 197, 7, 1);
+}
+
+.menucontainer:hover .menu {
+    display: block;
+} 
+
+
+.menu {
+    display: none;
+}
+
+@media only screen and (max-width: 1175px){
+    .menubar {
         display: block;
+        float: right;
+        position: relative;
+        right: 30px;
     }
     
-    nav a {
-        display:inline-table;
+    nav {
+        display: none;
+    }
+    
+    .menu {
+        float: right;
+        position:absolute;
+        right:0;
+        top: 89px;
+        background-color: rgba(44, 44, 46, 1);
+    }
+    
+    .menu li {
+        display: block;
+        font-size: 4vh;
+        font-weight: bold;
+        color: white;
+        height: 4vh;
+        margin-right: 40px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 500px){
+    .menubar {
+        position: fixed;
+        left: 335px;
+    }
+    span {
+        width: 28px;
     }
 }
 
@@ -415,11 +458,26 @@ header a:visited{
 }
 
 /* Endrer Bakgrunnsbildene */
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 650px){
+    #sleepInClass{
+        background-position: top;
+        background-image: url("../Content/sleepInClassSmall.jpg");
+    }
+    }
+
+@media only screen and (max-width: 650px){
+    #sleepOnMetro{
+        background-image: url("../Content/sleepOnMetroSmall.jpg");
+    }
+    }
+
+@media only screen and (max-width: 600px){
 #awakeOnMetro{
-    background-image: url("../Content/.jpg");
+    background-image: url("../Content/awakeOnMetroSmall.jpg");
 }
 }
+
+
 
 
 /* Endrer navbar basert på skjermhøyde */
