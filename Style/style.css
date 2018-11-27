@@ -156,7 +156,12 @@ span {
     width: 100%;
     margin: 0;
 }
-
+#link4{
+    height: 12vh;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(44, 44, 46);
+}
 
 
 /* The Problem */
@@ -220,7 +225,7 @@ span {
 #theProblem{
     height: auto;   
     position: relative;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 30px;
     background-color:rgba(44, 44, 46, 1);
     color: white;
@@ -232,6 +237,7 @@ span {
     width: 80%;
     margin: 0 auto;
     box-sizing: border-box;
+    padding: 10px 0px;
 }
 
 /* Our Product */
@@ -275,7 +281,7 @@ span {
 }
 
 #ourProduct p{
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 7vw;
     font-size: 18px;
     width: 70%;
@@ -309,7 +315,7 @@ span {
 
 @media only screen and (max-width: 960px){
     #ourProduct p{
-        padding-top: 30px;
+        padding-top: 20px;
         padding-left: 0;
         font-size: 18px;
         margin: 0 auto;
@@ -367,8 +373,8 @@ span {
 
 #application{
     height: auto;   
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 0px;
     background-color:rgba(44, 44, 46, 1);
     color: white;
     box-sizing: border-box; 
@@ -423,15 +429,14 @@ span {
 
 #theories{
     height: auto;   
-    padding-top: 50px;
-    padding-bottom: 100px;
     background-color:rgba(44, 44, 46, 1);
     color: white;
     box-sizing: border-box;
+    padding-bottom: 30px;
 }
 
 #theories p{
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 18px;
     width: 80%;
     margin: 0 auto;
