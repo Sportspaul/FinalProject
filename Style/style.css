@@ -28,7 +28,7 @@ header{
     margin: 0 auto;
     height: 12vh;
     width: 100vw;
-    background-color: rgba(44, 44, 46, 1);
+    background-color: rgb(36, 36, 36);
     position: fixed;
     top: 0px;
     z-index: 2;
@@ -65,24 +65,85 @@ header a:visited{
 }
 
 /*Hamburger menu*/
-.bar {
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 10px;
+.menucontainer {
+    height: 240px;
+    width: 4vw;
+    float: right;
+}
+
+span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  background: white;
+  border-radius: 3px;
 }
 
 .menubar {
-    display: block;
-    float: right;
-    position: relative;
-    right: 30px;
+    display: none;
     margin: 30px;
     width: 45px;
     height: 50px;
-    background-color: inherit;
-    cursor: pointer;
+    z-index: 2 
 }
+
+.menucontainer:hover  span  {
+    background: rgba(239, 197, 7, 1);
+}
+
+.menucontainer:hover .menu {
+    display: block;
+} 
+
+
+.menu {
+    display: none;
+}
+
+@media only screen and (max-width: 1175px){
+    .menubar {
+        display: block;
+        float: right;
+        position: relative;
+        right: 30px;
+    }
+    
+    nav {
+        display: none;
+    }
+    
+    .menu {
+        float: right;
+        position:absolute;
+        right:0;
+        top: 89px;
+        background-color: rgba(44, 44, 46, 1);
+    }
+    
+    .menu li {
+        display: block;
+        font-size: 4vh;
+        font-weight: bold;
+        color: white;
+        height: 4vh;
+        margin-right: 40px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 500px){
+    .menubar {
+        position: fixed;
+        left: 335px;
+    }
+    span {
+        width: 28px;
+    }
+}
+
+
 /* Navigation links */
 
 
@@ -377,7 +438,7 @@ header a:visited{
 #theories{
     height: auto;   
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     background-color:rgba(44, 44, 46, 1);
     color: white;
     box-sizing: border-box;
@@ -479,4 +540,66 @@ nav{
         top: -8vh;
     }
 
+}
+footer{
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    margin: 0;
+    height: 30vh;
+    box-sizing: border-box;
+    color: white;
+    position: relative;    
+}
+
+.social_media img{
+    padding: 5px;
+    width: 30px;
+    float: right;
+    margin: -5vh 20px 0px 0px;
+}
+.social_media img:hover{
+    width: 35px;
+    margin: -5vh 15px 0px 0px;
+}
+.links h4{
+    margin: 0;
+    padding: 10px 0px 0px 8px;
+    font-size: 14px;
+}
+.links p{
+    font-size: 12px;
+    padding: 5px 0px 0px 10px;
+}
+.futher h4{
+    margin: 0;
+    padding: 14px 0px 0px 8px;
+    font-size: 14px;
+}
+.futher p{
+    font-size: 12px;
+    padding: 5px 0px 0px 10px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.links a:visited{
+    color: white;
+}
+.links{
+    display: inline-block;
+    margin: 0;
+}
+.futher{
+    display: inline-block;
+    margin: 0;
+    margin-left: 20px;
+}
+.futher a{
+    color: white;
+    text-decoration: none;
+}
+.futher a:visited{
+    color: white;
+    text-decoration: none;
 }
