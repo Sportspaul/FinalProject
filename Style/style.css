@@ -92,11 +92,6 @@ span {
     background: rgba(239, 197, 7, 1);
 }
 
-.menucontainer:hover .menu {
-    display: block;
-} 
-
-
 .menu {
     display: none;
 }
@@ -146,6 +141,8 @@ span {
 
 /* Navigation links */
 
+
+
 #link2{
     height: 12vh;
     width: 100%;
@@ -187,7 +184,19 @@ span {
     min-height: 15vh;
     width: 100%;
     background-color: rgba(44, 44, 46, 0.93);
+    z-index: 1;
+    position:relative;
+    top: 0px;
 
+}
+
+#link1{
+    height: 12vh;
+    width: 100%;
+    margin: 0;
+    z-index: 0;
+    position: absolute;
+    top: 4vh;
 }
 
 #sleepInClass h1{
