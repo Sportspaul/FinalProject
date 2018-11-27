@@ -420,6 +420,7 @@ span {
     float: right;
     margin-top: 10px;
     margin-right: 19vw;
+    margin-bottom: 20px;
 }
 
 .appText h3{
@@ -450,8 +451,6 @@ span {
     margin: 0 auto;
     display: block;
     margin-top: 20px;
-    margin-bottom: 50px;
-    
     }
 }    
 
