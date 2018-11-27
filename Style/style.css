@@ -204,6 +204,15 @@ span {
     top: 4vh;
 }
 
+#link1{
+    height: 12vh;
+    width: 100%;
+    margin: 0;
+    z-index: 0;
+    position: absolute;
+    top: 4vh;
+}
+
 #sleepInClass h1{
     margin: 0 auto;
     width: 80%;
