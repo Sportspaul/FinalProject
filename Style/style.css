@@ -90,7 +90,7 @@ span {
     border-radius: 3px;
     }
   
-  .menubar {
+  .menubarPopup {
     display: none;
     margin: 22px;
     width: 33px;
@@ -99,13 +99,13 @@ span {
     z-index: 2;
   }
   
-  .menubar:hover  span  {
+  .menubarPopup:hover  span  {
     background: rgba(239, 197, 7, 1);
   }
   
   
   @media only screen and (max-width: 1175px){
-    .menubar {
+    .menubarPopup {
         display: block;
         float: right;
         position: relative;
