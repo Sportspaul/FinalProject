@@ -28,7 +28,7 @@ header{
     margin: 0 auto;
     height: 12vh;
     width: 100vw;
-    background-color: rgba(44, 44, 46, 1);
+    background-color: rgb(36, 36, 36);
     position: fixed;
     top: 0px;
     z-index: 2;
@@ -99,7 +99,7 @@ header a:visited{
         display:inline-table;
     }
 }
-5
+
 
 /* Navigation links */
 
@@ -381,7 +381,7 @@ header a:visited{
 #theories{
     height: auto;   
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     background-color:rgba(44, 44, 46, 1);
     color: white;
     box-sizing: border-box;
@@ -468,4 +468,66 @@ nav{
         top: -8vh;
     }
 
+}
+footer{
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    margin: 0;
+    height: 30vh;
+    box-sizing: border-box;
+    color: white;
+    position: relative;    
+}
+
+.social_media img{
+    padding: 5px;
+    width: 30px;
+    float: right;
+    margin: -5vh 20px 0px 0px;
+}
+.social_media img:hover{
+    width: 35px;
+    margin: -5vh 15px 0px 0px;
+}
+.links h4{
+    margin: 0;
+    padding: 10px 0px 0px 8px;
+    font-size: 14px;
+}
+.links p{
+    font-size: 12px;
+    padding: 5px 0px 0px 10px;
+}
+.futher h4{
+    margin: 0;
+    padding: 14px 0px 0px 8px;
+    font-size: 14px;
+}
+.futher p{
+    font-size: 12px;
+    padding: 5px 0px 0px 10px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.links a:visited{
+    color: white;
+}
+.links{
+    display: inline-block;
+    margin: 0;
+}
+.futher{
+    display: inline-block;
+    margin: 0;
+    margin-left: 20px;
+}
+.futher a{
+    color: white;
+    text-decoration: none;
+}
+.futher a:visited{
+    color: white;
+    text-decoration: none;
 }
