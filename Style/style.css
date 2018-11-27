@@ -146,7 +146,7 @@ span {
     text-decoration: none;
     color: white;
   }
-  }
+}
   
   /*Popup*/
   
@@ -180,7 +180,6 @@ span {
     .hamburgerPopup .close:hover{
       opacity: 0.5;
     }
-
 
 
 /* The Problem */
@@ -226,6 +225,15 @@ span {
     top: 4vh;
 }
 
+#link1{
+    height: 12vh;
+    width: 100%;
+    margin: 0;
+    z-index: 0;
+    position: absolute;
+    top: 4vh;
+}
+
 #sleepInClass h1{
     margin: 0 auto;
     width: 80%;
@@ -256,7 +264,7 @@ span {
 #theProblem{
     height: auto;   
     position: relative;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 30px;
     background-color:rgba(44, 44, 46, 1);
     color: white;
@@ -268,6 +276,7 @@ span {
     width: 80%;
     margin: 0 auto;
     box-sizing: border-box;
+    padding: 10px 0px;
 }
 
 /* Our Product */
@@ -311,7 +320,7 @@ span {
 }
 
 #ourProduct p{
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 7vw;
     font-size: 18px;
     width: 70%;
@@ -345,7 +354,7 @@ span {
 
 @media only screen and (max-width: 960px){
     #ourProduct p{
-        padding-top: 30px;
+        padding-top: 20px;
         padding-left: 0;
         font-size: 18px;
         margin: 0 auto;
@@ -403,8 +412,8 @@ span {
 
 #application{
     height: auto;   
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 0px;
     background-color:rgba(44, 44, 46, 1);
     color: white;
     box-sizing: border-box; 
@@ -420,6 +429,7 @@ span {
     float: right;
     margin-top: 10px;
     margin-right: 19vw;
+    margin-bottom: 20px;
 }
 
 .appText h3{
@@ -450,7 +460,7 @@ span {
     margin: 0 auto;
     display: block;
     margin-top: 20px;
-    margin-bottom: 50px;
+    padding-bottom: 30px;
     
     }
 }    
@@ -459,15 +469,14 @@ span {
 
 #theories{
     height: auto;   
-    padding-top: 50px;
-    padding-bottom: 100px;
     background-color:rgba(44, 44, 46, 1);
     color: white;
     box-sizing: border-box;
+    padding-bottom: 30px;
 }
 
 #theories p{
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 18px;
     width: 80%;
     margin: 0 auto;
@@ -497,19 +506,19 @@ span {
 @media only screen and (max-width: 650px){
     #sleepInClass{
         background-position: top;
-        background-image: url("../Content/sleepInClassSmall.jpg");
+        background-image: url("/Content/sleepInClassSmall.jpg");
     }
     }
 
 @media only screen and (max-width: 650px){
     #sleepOnMetro{
-        background-image: url("../Content/sleepOnMetroSmall.jpg");
+        background-image: url("/Content/sleepOnMetroSmall.jpg");
     }
     }
 
 @media only screen and (max-width: 600px){
 #awakeOnMetro{
-    background-image: url("../Content/awakeOnMetroSmall.jpg");
+    background-image: url("/Content/awakeOnMetroSmall.jpg");
 }
 }
 
@@ -563,43 +572,54 @@ nav{
     }
 
 }
+
+/*Footer*/
 footer{
     background-color: rgb(36, 36, 36);
     width: 100%;
     margin: 0;
-    height: 30vh;
     box-sizing: border-box;
     color: white;
-    position: relative;    
+    position: relative;  
+    padding-top: 3vh;  
+    padding-bottom: 3vh;
 }
 
 .social_media img{
-    padding: 5px;
-    width: 30px;
+    padding: 1.5vh;
+    width: 5.5vh;
     float: right;
-    margin: -5vh 20px 0px 0px;
+
+}
+
+.social_media{
+    position: relative;
+    top: 2vh;
+    margin: 0vh 0vh 0vh 1vh;
+    display: inline-block;
 }
 .social_media img:hover{
-    width: 35px;
-    margin: -5vh 15px 0px 0px;
+    opacity: 0.6;
 }
 .links h4{
     margin: 0;
-    padding: 10px 0px 0px 8px;
-    font-size: 14px;
+    padding: 2vh 0vh 0vh 4.3vh;
+    font-size: 2.4vh;
+    color: rgba(239, 197, 7, 1);
 }
 .links p{
-    font-size: 12px;
-    padding: 5px 0px 0px 10px;
+    font-size: 2.0vh;
+    padding: 1vh 0vh 0vh 4.9vh;
 }
 .futher h4{
     margin: 0;
-    padding: 14px 0px 0px 8px;
-    font-size: 14px;
+    padding: 2vh 0vh 0vh 4.3vh;
+    font-size: 2.4vh;
+    color: rgba(239, 197, 7, 1);
 }
 .futher p{
-    font-size: 12px;
-    padding: 5px 0px 0px 10px;
+    font-size: 2.0vh;
+    padding: 1vh 0vh 0vh 4.9vh;
 }
 .links a{
     color: white;
@@ -611,11 +631,12 @@ footer{
 .links{
     display: inline-block;
     margin: 0;
+    margin-right: 12vw;
 }
 .futher{
     display: inline-block;
     margin: 0;
-    margin-left: 20px;
+    margin-right: 12vw;
 }
 .futher a{
     color: white;
