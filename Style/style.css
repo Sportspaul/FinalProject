@@ -92,11 +92,6 @@ span {
     background: rgba(239, 197, 7, 1);
 }
 
-.menucontainer:hover .menu {
-    display: block;
-} 
-
-
 .menu {
     display: none;
 }
