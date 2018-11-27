@@ -451,6 +451,11 @@ span {
     margin: 0 auto;
     display: block;
     margin-top: 20px;
+<<<<<<< HEAD
+=======
+    padding-bottom: 30px;
+    
+>>>>>>> a1a63b3e5f62bf47ff82b9ab7a5db67b85f87b26
     }
 }    
 
@@ -495,19 +500,19 @@ span {
 @media only screen and (max-width: 650px){
     #sleepInClass{
         background-position: top;
-        background-image: url("../Content/sleepInClassSmall.jpg");
+        background-image: url("/Content/sleepInClassSmall.jpg");
     }
     }
 
 @media only screen and (max-width: 650px){
     #sleepOnMetro{
-        background-image: url("../Content/sleepOnMetroSmall.jpg");
+        background-image: url("/Content/sleepOnMetroSmall.jpg");
     }
     }
 
 @media only screen and (max-width: 600px){
 #awakeOnMetro{
-    background-image: url("../Content/awakeOnMetroSmall.jpg");
+    background-image: url("/Content/awakeOnMetroSmall.jpg");
 }
 }
 
@@ -584,7 +589,7 @@ footer{
 .social_media{
     position: relative;
     top: 2vh;
-    margin: 0vh 0vh 0vh 18vh;
+    margin: 0vh 0vh 0vh 1vh;
     display: inline-block;
 }
 .social_media img:hover{
