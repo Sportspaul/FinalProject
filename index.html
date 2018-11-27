@@ -5,8 +5,9 @@
     <title>SleepLezz</title>
     <link rel="stylesheet" type="text/css" href="Style/style.css">
     <link rel="icon" href="Content/zz.png">
+    <script src="Script/script.js"></script>
 </head>
-
+Script/script.js
 <body>
     <div id="top">hei</div>
     <!--Header-->
@@ -14,14 +15,15 @@
     <a href="#top"><img src="Content/SleepLezzLogoTransparent.png"
         alt="Picture of our logo spelling SLEEPLEZZ with yellow letters"></a>
         <div class="menucontainer"> 
-            <div class="menubar" title="Menu icon">
-                    <span></span>
-                    <span></span>
-                    <span></span> 
+            <div class="menubar" title="Menu icon" >
+                    <span onclick="openMenu()"></span>
+                    <span onclick="openMenu()"></span>
+                    <span onclick="openMenu()"></span> 
             </div>
             <div class="overlay">
                 <div class="popup-content">
-                    <div class="menu">
+                    <div class="menu" id="menu">
+                          <a href="javascript:void(0)" onclick="closeMenu()">&times;</a>
                 <ul>
                     <li><a href="#slogan">The Problem</a></li>
                     <li><a href="#link2">Our product</a></li>

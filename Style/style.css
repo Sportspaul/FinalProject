@@ -96,6 +96,17 @@ span {
     display: none;
 }
 
+.closebtn {
+    position: absolute; 
+    top: 0;
+    right: 25px;
+    float: right;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+    display: none;
+}
+
 @media only screen and (max-width: 1175px){
     .menubar {
         display: block;
@@ -114,6 +125,7 @@ span {
         right:0;
         top: 89px;
         background-color: rgba(44, 44, 46, 1);
+        z-index: 2;
     }
     
     .menu li {
