@@ -96,14 +96,21 @@ span {
     display: none;
 }
 
-.closebtn {
-    position: absolute; 
-    top: 0;
-    right: 25px;
-    float: right;
-    font-size: 36px;
-    margin-left: 50px;
-    text-decoration: none;
+.hamburgerPopup {
+    visibility: hidden;
+}
+
+
+span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    background: white;
+    border-radius: 3px;
+    }
+  
+  .menubarPopup {
     display: none;
 }
 
@@ -118,14 +125,50 @@ span {
     nav {
         display: none;
     }
-    
-    .menu {
-        float: right;
-        position:absolute;
-        right:0;
-        top: 89px;
-        background-color: rgba(44, 44, 46, 1);
-        z-index: 2;
+  
+    .hamburgerPopup {
+      float: right;
+      display:block;
+      position:absolute;
+      right:0;
+      top: 73px;
+      background-color: rgba(36, 36, 36, 1);
+      width: 250px;
+      height: 160px;
+      visibility: visible;
+    }
+  
+  
+  .hamburgerPopup li {
+      display: block;
+      font-size: 4vh;
+      font-weight: bold;
+      color: white;
+      height: 4vh;
+      right: 30px;
+      position: relative;
+      margin: 10px;
+  }
+  .hamburgerPopup .close {
+    position: relative;
+    left: 200px;
+    bottom: 150px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+  }
+}
+  
+  /*Popup*/
+  
+    .button {
+      color: black;
+      text-decoration: none;
+      padding: 0px;
+   
+    }
+    .button :hover {
+      opacity: 0.8;
     }
     
     .menu li {
@@ -137,7 +180,7 @@ span {
         margin-right: 40px;
     }
     
-}
+
 
 
 @media only screen and (max-width: 500px){
