@@ -438,7 +438,7 @@ span {
     margin: 0 auto;
     display: block;
     margin-top: 20px;
-    margin-bottom: 50px;
+    padding-bottom: 30px;
     
     }
 }    
@@ -573,7 +573,7 @@ footer{
 .social_media{
     position: relative;
     top: 2vh;
-    margin: 0vh 0vh 0vh 18vh;
+    margin: 0vh 0vh 0vh 1vh;
     display: inline-block;
 }
 .social_media img:hover{
